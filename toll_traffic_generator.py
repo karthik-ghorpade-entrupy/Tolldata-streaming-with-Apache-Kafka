@@ -1,5 +1,5 @@
 """
-Top Traffic Simulator
+Toll Traffic Simulator
 """
 from time import sleep, time, ctime
 from random import random, randint, choice
