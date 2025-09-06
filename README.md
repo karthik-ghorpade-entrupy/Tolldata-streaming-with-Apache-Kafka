@@ -1,6 +1,5 @@
 # Tolldata-streaming-with-Apache-Kafka
 Final Assignment - ETL and Data Pipelines with Shell, Apache Airflow and Apache Kafka Coursera course
 
-For instructions, refer to the instructions.sh file from the other streaming-data-with-kafka repo
-
-To do: Update instructions on creating the MySQL database and the table where the streamed data is loaded.
+- `toll_traffic_generator`: Generating stream of data using an example generator, which replicates two toll booths, with vehicles passing through the toll booths
+- `streaming_data_reader `: Consuming the data-stream from the `toll` Kafka topic, and storing it in a mysql database.
